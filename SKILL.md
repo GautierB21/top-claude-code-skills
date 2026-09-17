@@ -7,12 +7,22 @@ description: Référence complète des meilleurs skills et repos GitHub pour Cla
 
 Sources : Henri ExplorIA (YouTube), Camille Roux, SEO Rank Analyzer, Nocode Factory. Mis à jour : juillet 2026.
 
+> 🔒 **Avant d'intégrer un repo listé ici**, applique la checklist de sécurité dans [`references/repo-security-audit.md`](references/repo-security-audit.md) ou [`references/security-audit-checklist.md`](references/security-audit-checklist.md) pour une inspection plus complète.
+> 📘 Instructions d'installation des skills GitHub : [`references/github-skill-installation.md`](references/github-skill-installation.md).
+> 📘 Analyses détaillées des repos trading dans [`references/trading-repos-analysis.md`](references/trading-repos-analysis.md).
+> 🏗️ Architecture de profils Hermes + mapping skills natifs/Claude Code : [`references/hermes-profile-skills-mapping.md`](references/hermes-profile-skills-mapping.md).
+> ⚡🟣 Matrice de décision Agy vs Claude Code (3 niveaux Flash / Pro / Claude) : [`references/agy-claude-decision-matrix.md`](references/agy-claude-decision-matrix.md).
+
 ## 🏛️ Officiel Anthropic / Fondations
 
 | Repo | ⭐ | Description |
 |------|:--:|-------------|
 | [`anthropics/skills`](https://github.com/anthropics/skills) | 157k | Skills officiels Anthropic : Canvas Design, Brand Guidelines, Theme Factory, Figma Implement, Frontend Design, Document Skills, MCP Builder… |
 | [`anthropics/claude-code`](https://github.com/anthropics/claude-code) | 135k | Claude Code officiel |
+| [`obra/superpowers`](https://github.com/obra/superpowers) | 288k | **Le** framework agentique de référence — méthodologie de dev + skills (TDD, debugging, planning) |
+| [`mattpocock/skills`](https://github.com/mattpocock/skills) | 264k | Skills for Real Engineers — tirés du `.agents` directory de Matt Pocock |
+| [`github/spec-kit`](https://github.com/github/spec-kit) | 138k | Toolkit officiel GitHub pour le Spec-Driven Development |
+| [`WorldFlowAI/everything-claude-code`](https://github.com/WorldFlowAI/everything-claude-code) | 3.1k | Toolkit complet : agents, commands, skills, rules et hooks |
 | [`affaan-m/ECC`](https://github.com/affaan-m/ECC) | 223k | Agent harness : skills, instincts, mémoire, security |
 | [`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills) | 67k | Skills engineering production grade |
 | [`yusufkaraaslan/Skill_Seekers`](https://github.com/yusufkaraaslan/Skill_Seekers) | 14k | Convertit docs, repos GitHub et PDFs en skills Claude avec détection auto de conflits |
@@ -50,6 +60,15 @@ Sources : Henri ExplorIA (YouTube), Camille Roux, SEO Rank Analyzer, Nocode Fact
 |------|:--:|-------------|
 | [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo) | 10k | Skill SEO universel (technique, GEO, GSC, GA4) |
 | [`BexTuychiev/firecrawl-claude-code-skill`](https://github.com/BexTuychiev/firecrawl-claude-code-skill) | 14 | Skill scraping Firecrawl |
+| [`Panniantong/Agent-Reach`](https://github.com/Panniantong/Agent-Reach) | 52k | Donne des yeux à ton agent IA : lire/chercher sur Twitter, Reddit, YouTube, GitHub — zéro frais d'API |
+
+## 🕷️ Web Scraping & Browser Automation
+
+| Repo | ⭐ | Description |
+|------|:--:|-------------|
+| [`browser-use/browser-use`](https://github.com/browser-use/browser-use) | 103k | Framework pour IA : automatise n'importe quel site web via un navigateur réel (Playwright). Login, scraping, formulaires — tout est possible, mais lent (5-10s/action) et fragile (changements UI). Excellent pour des tâches ponctuelles complexes. |
+| [`unclecode/crawl4ai`](https://github.com/unclecode/crawl4ai) | 71k | Crawler/scraper LLM-friendly en Python. Extrait du texte structuré, bypass certaines protections anti-bot. Parfait pour scraper des news, docs, ou données financières non protégées. Rapide et fiable pour du contenu textuel. |
+| [`getmaxun/maxun`](https://github.com/getmaxun/maxun) | 16k | Plateforme no-code de web scraping. Transforme n'importe quel site en API structurée. Pas de code, interface visuelle. Bon pour des besoins ponctuels sans maintenance. |
 | [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) | 35.5k | Skills marketing : CRO, copywriting, SEO, analytics, growth |
 | [`aaron-he-zhu/aaron-marketing-skills`](https://github.com/aaron-he-zhu/aaron-marketing-skills) | 2.3k | 38 skills marketing + 5 commands : SEO/GEO, influencer |
 | [`TheMattBerman/x-algo-skill`](https://github.com/TheMattBerman/x-algo-skill) | 62 | Optimiseur X/Twitter — reverse-engineer du code X |
@@ -66,23 +85,28 @@ Sources : Henri ExplorIA (YouTube), Camille Roux, SEO Rank Analyzer, Nocode Fact
 | [`waybarrios/opencode-power-pack`](https://github.com/waybarrios/opencode-power-pack) | 403 | 11 skills dont security-review, portés vers OpenCode |
 | [`huifer/skill-security-scan`](https://github.com/huifer/skill-security-scan) | 156 | Scan détection risques dans les Skills Claude |
 
-## 📝 Code Review & Dette Technique
+## 📝 Code Review & Knowledge Graphs
 
 | Repo | ⭐ | Description |
 |------|:--:|-------------|
-| [`tirth8205/code-review-graph`](https://github.com/tirth8205/code-review-graph) | 19k | Code intelligence graph |
-| [`Egonex-AI/Understand-Anything`](https://github.com/Egonex-AI/Understand-Anything) | 69k | Knowledge graph interactif |
+| [`Graphify-Labs/graphify`](https://github.com/Graphify-Labs/graphify) | 92k | Transforme code, SQL et données en knowledge graph interactif |
+| [`Egonex-AI/Understand-Anything`](https://github.com/Egonex-AI/Understand-Anything) | 69k | Knowledge graph interactif — explore, cherche et questionne ton code |
+| [`tirth8205/code-review-graph`](https://github.com/tirth8205/code-review-graph) | 19k | Code intelligence graph local |
 | [`ksimback/tech-debt-skill`](https://github.com/ksimback/tech-debt-skill) | 527 | Audit dette technique |
+| [`lackeyjb/playwright-skill`](https://github.com/lackeyjb/playwright-skill) | 2.9k | Browser automation Playwright — Claude écrit et exécute tests navigateur |
 
 ## 📈 Trading & Finance
 
 | Repo | ⭐ | Description |
 |------|:--:|-------------|
-| [`TraderAlice/OpenAlice`](https://github.com/TraderAlice/OpenAlice) | 5.7k | Trading agent IA autonome |
+| [`TraderAlice/OpenAlice`](https://github.com/TraderAlice/OpenAlice) | 5.8k | Trading agent IA autonome — equities, crypto, commodities, forex, macro. Desktop app avec connexion brokerage réelle (IBKR). 1 490+ commits, très actif. |
 | [`tinyhumansai/openhuman`](https://github.com/tinyhumansai/openhuman) | 34k | AI super intelligence personnelle |
-| [`Fincept-Corporation/FinceptTerminal`](https://github.com/Fincept-Corporation/FinceptTerminal) | 28k | Terminal finance moderne : analytics marchés, recherche investissement, données économiques |
-| [`webcoda-sydney/trading-agents`](https://github.com/webcoda-sydney/trading-agents) | 3 | 24 agents IA spécialisés pour analyse investissement |
-
+| [`Fincept-Corporation/FinceptTerminal`](https://github.com/Fincept-Corporation/FinceptTerminal) | 27.8k | Terminal finance Qt desktop. Analytics marchés, recherche investissement, données économiques. Docker-deployable, 1 034+ commits. |
+| [`webcoda-sydney/trading-agents`](https://github.com/webcoda-sydney/trading-agents) | 3 | **Pratique pour intégration directe.** 5 scripts Python (yfinance + pandas_ta) : fetch_price, fetch_fundamentals, fetch_technicals (RSI/MACD/Bollinger/ATR), fetch_news (sentiment), fetch_portfolio. Alpha Vantage/Finnhub/Twelve Data optionnel. 24 agents Claude Code répartis en 8 équipes (Analysis, Research, Execution, Strategy, Market, Regional, Coaching, Discovery). Skills Claude : stock-data, portfolio-management, api-providers. |
+| [`JoelLewis/finance_skills`](https://github.com/JoelLewis/finance_skills) | 145 | Plugin Claude Code avec **81 skills** couvrant 7 domaines : investment management, compliance, advisory practice, trading, operations. |
+| [`HKUDS/Vibe-Trading`](https://github.com/HKUDS/Vibe-Trading) | 17k | **Workspace de recherche IA** pour le trading. Talk-to-agent : backtests, Alpha Zoo (456 factors), Shadow Account (analyse journaux brokers), équipes multi-agents. `pip install vibe-trading-ai`. FastAPI + React 19. 16 canaux IM (Telegram, Slack, Discord…). Actif (425 commits). |
+| [`man-c/pycoingecko`](https://github.com/man-c/pycoingecko) | 3.4k | Wrapper Python officiel pour l'API CoinGecko. Accès gratuit aux prix, market cap, volume, tendances de 13k+ cryptos (30 calls/min). `pip install pycoingecko`. Aucune clé API. |
+|
 ## 🤖 Agents & Assistants
 
 | Repo | ⭐ | Description |
@@ -141,7 +165,7 @@ Sources : Henri ExplorIA (YouTube), Camille Roux, SEO Rank Analyzer, Nocode Fact
 | [`centminmod/my-claude-code-setup`](https://github.com/centminmod/my-claude-code-setup) | 2.4k | Template CLAUDE.md + mémoire bank |
 | [`UfoMiao/zcf`](https://github.com/UfoMiao/zcf) | 6k | Zero-Config Code Flow pour Claude Code & Codex |
 | [`alirezarezvani/claude-skills`](https://github.com/alirezarezvani/claude-skills) | 19.4k | 337 skills + 30+ agents + 70+ commands personnalisables |
-| [`jnMetaCode/superpowers-zh`](https://github.com/jnMetaCode/superpowers-zh) | 6k | Superpowers — framework skills TDD/debugging (version CN) |
+| [`jnMetaCode/superpowers-zh`](https://github.com/jnMetaCode/superpowers-zh) | 6k | Superpowers — version chinoise (l'original `obra/superpowers` ⭐288k est en section Fondations) |
 
 ## 🌐 Sites Vibe Coding
 
