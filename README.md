@@ -13,12 +13,12 @@ Le skill Hermes (`SKILL.md`) contient la liste complète avec :
 
 | # | Catégorie | Nb repos |
 |---|-----------|:--------:|
-| 🏛️ | Officiel Anthropic / Fondations | 5 |
+| 🏛️ | Officiel Anthropic / Fondations | 9 |
 | ⚡ | Productivité & Tokens | 7 |
 | 🎨 | Design & Frontend | 10 |
-| 🔍 | SEO & Marketing | 9 |
+| 🔍 | SEO & Recherche | 10 |
 | 🛡️ | Cybersécurité | 3 |
-| 📝 | Code Review & Dette Technique | 3 |
+| 📝 | Code Review & Knowledge Graphs | 5 |
 | 📈 | Trading & Finance | 4 |
 | 🤖 | Agents & Assistants | 9 |
 | 📊 | Monitoring & Dashboards | 5 |
@@ -32,16 +32,16 @@ Le skill Hermes (`SKILL.md`) contient la liste complète avec :
 
 | # | Repo | ⭐ |
 |---|------|:--:|
-| 1 | `affaan-m/ECC` | 223k |
-| 2 | `anthropics/skills` | 157k |
-| 3 | `anthropics/claude-code` | 135k |
-| 4 | `garrytan/gstack` | 118k |
-| 5 | `pewdiepie-archdaemon/odysseus` | 79k |
-| 6 | `JuliusBrussee/caveman` | 78k |
-| 7 | `Egonex-AI/Understand-Anything` | 69k |
-| 8 | `addyosmani/agent-skills` | 67k |
-| 9 | `shanraisshan/claude-code-best-practice` | 62k |
-| 10 | `OpenCut-app/OpenCut` | 60k |
+| 1 | `obra/superpowers` | 288k |
+| 2 | `mattpocock/skills` | 264k |
+| 3 | `affaan-m/ECC` | 223k |
+| 4 | `anthropics/skills` | 157k |
+| 5 | `github/spec-kit` | 138k |
+| 6 | `anthropics/claude-code` | 135k |
+| 7 | `garrytan/gstack` | 118k |
+| 8 | `Graphify-Labs/graphify` | 92k |
+| 9 | `pewdiepie-archdaemon/odysseus` | 79k |
+| 10 | `JuliusBrussee/caveman` | 78k |
 
 ## 🔧 Installation
 
